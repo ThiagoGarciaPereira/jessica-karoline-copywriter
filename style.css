@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Luxurious+Roman & display=trocar');
+
+@import url('https://fonts.googleapis.com/css2? family= Tangerine & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Gwendolyn:wght@700 & display=swap');
+
+
+:root {
+    --cor0:#AB8455;
+    --cor1:#F7C07C;
+    --cor2:#C4AF96;
+    --cor3:#7A5F3D;
+    --cor4:#FA8E0A;
+    --cor5:#ffffff;
+    --cor6:#000000;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-segundaria: 'Luxurious Roman', cursiva;
+    --font-terceira: 'Tangerine', cursiva;
+    --font-family: 'Gwendolyn', cursiva;
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor6);
+    background-image: url(imagens/fotoum.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    min-width: 100vh;
+}
+   
+
+body > article {
+   max-width: 1000px;
+   margin: auto;
+}
+
+header {
+    text-align: center;
+    background-color: var(--cor0);
+    color: var(--cor5);
+}
+
+header > h1 {
+    color: var(--cor6);
+    font-family: 'Gwendolyn', Arial, Helvetica, sans-serif, cursiva;
+    font-size: 50px;
+    padding: 40px;
+}
+
+header > p {
+    padding: 20px;
+    font-size: 20px;
+    font-family: var(--fonte-padrao);
+    color: var(--cor6)
+}
+
+body > article > section > h1 {
+    font-family: var(--font-terceira), Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+}
+
+h2 {
+    font-family: var(--fonte-segundaria), Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: -30px;
+    margin-left: -30px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, #AB8455, #c4af9688);
+}
+
+section {
+    padding-top: 6vh;
+    padding-right: 30px;
+    padding-bottom: 7vh;
+    padding-left: 30px;
+
+}
+
+section.normal {
+    background-color: var(--cor5);
+    color: var(--cor6);
+}
+
+section.imagem {
+    background-color: var(--cor5);
+    color: var(--cor6);
+    display: inline-block;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-attachment: fixed;
+}
+
+section#img01 {
+    background-image: url(imagens/fototres.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    
+}
+
+.paragrafo01 {
+    color: var(--cor6);
+    background-color: rgba(255, 255, 255, 0.637);
+    padding: 20px;
+    width: 350px;
+}
+
+section#img02 {
+    background-image: url(imagens/fotoquatro1000.jpg);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+
+}
+
+.paragrafo2 {
+    color: var(--cor6);
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 20px;
+    width: 350px;
+}
+
+article > section > p {
+    font-size: 20px;
+    font-family: var(--font-terceira), Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.2em;
+}
+
+ul > li {
+
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+body > main > footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 10px;
+
+}
+
+body > main > footer > p > a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
+
+.redessociais {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.button {
+    background-color: var(--cor5);
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+a:hover {
+text-decoration: underline;
+}
+
+ 
