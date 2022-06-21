@@ -30,7 +30,7 @@
 }
 
 body {
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -100,8 +100,6 @@ section.imagem {
     background-color: var(--cor5);
     color: var(--cor6);
     display: inline-block;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
-    background-attachment: fixed;
 }
 
 section#img01 {
@@ -110,12 +108,14 @@ section#img01 {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
     
 }
 
 .paragrafo01 {
     color: var(--cor6);
-    background-color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(255, 255, 255, 0.596);
     padding: 20px;
     width: 350px;
 }
@@ -125,15 +125,14 @@ section#img02 {
     display: block;
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: cover;
 
 }
 
 .paragrafo2 {
     color: var(--cor6);
-    background-color: rgba(255, 255, 255, 0.699);
-    padding: 20px;
-    width: 350px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    width: 280px;
 }
 
 article > section > p {
@@ -160,13 +159,9 @@ body > article > section > form {
 }
 
 .email {
-    padding-left: 100px;
-    padding-bottom: 10px;
-}
+    font-size: 25px;
+    text-decoration: underline;
 
-.suamensagem {
-    padding-left: 105px;
-    padding-bottom: 100px;
 }
 
 body > main > footer {
