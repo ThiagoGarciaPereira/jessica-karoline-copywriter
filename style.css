@@ -35,14 +35,15 @@ body {
    
 
 body > article {
-   max-width: 1000px;
+   max-width: 1200px;
+   min-width: 320px;
    margin: auto;
    background-color: var(--cor5);
 }
 
 header {
     text-align: center;
-    background-image: linear-gradient(45deg, #F7C07C, #AB8455);
+    background-image: linear-gradient(45deg, #f7c07c9c, #80623f);
     background-attachment: fixed;
     color: var(--cor5);
 }
@@ -51,20 +52,29 @@ header > h1 {
     color: var(--cor6);
     font-family: var(--fonte-segundaria);
     font-size: 50px;
-    padding: 60px;
-}
-
-header > p {
     padding: 20px;
-    font-size: 20px;
-    font-family: var(--fonte-padrao);
-    color: var(--cor6)
 }
 
 body > article > section > h1 {
     font-family: var(--font-terceira), Arial, Helvetica, sans-serif;
     font-size: 35px;
     text-align: center;
+    padding: 30px;
+}
+
+.tema {
+    color: var(--cor5);
+    font-family: var(--font-terceira), Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: right;
+    padding: 30px;
+}
+
+.temap {
+    color: var(--cor5);
+    font-family: var(--font-terceira), Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: right;
     padding: 30px;
 }
 
@@ -104,6 +114,24 @@ section#img01 {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.192);
 }
 
+section.imagemdois {
+    background-color: var(--cor5);
+    color: var(--cor6);
+    display: inline-block;
+}
+
+section#img03 {
+    margin-right: -30px;
+    margin-left: -30px;
+    margin-top: -38px;
+    background-image: url(imagens/selfie350.png);
+    background-color: var(--cor6);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left left;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.192);
+}
+
 .porque {
     border-radius: 10px;
     opacity: 80%;
@@ -113,7 +141,6 @@ section#img01 {
     display: block;
     margin: auto;
     padding: 20px;
-    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.534);
 }
 
 .persuasao {
@@ -158,9 +185,8 @@ aside {
 }
 
 ul > li {
-
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
     padding: 5px;
 }
 
